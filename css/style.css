@@ -3873,7 +3873,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .monthly-deals {
-    padding-bottom: 1.25rem;
+    padding-bottom: 3.75rem;
   }
 
   .monthly-deals__title:not(:last-child) {
@@ -4660,15 +4660,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (padding-bottom: clamp( 1.25rem , -1.2865853659rem  +  12.6829268293vw , 7.75rem )) {
+@supports (padding-bottom: clamp( 3.75rem , 2.1890243902rem  +  7.8048780488vw , 7.75rem )) {
     .monthly-deals {
-      padding-bottom: clamp( 1.25rem , -1.2865853659rem  +  12.6829268293vw , 7.75rem );
+      padding-bottom: clamp( 3.75rem , 2.1890243902rem  +  7.8048780488vw , 7.75rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1.25rem , -1.2865853659rem  +  12.6829268293vw , 7.75rem )) {
+@supports not (padding-bottom: clamp( 3.75rem , 2.1890243902rem  +  7.8048780488vw , 7.75rem )) {
     .monthly-deals {
-      padding-bottom: calc(1.25rem + 6.5 * (100vw - 20rem) / 51.25);
+      padding-bottom: calc(3.75rem + 4 * (100vw - 20rem) / 51.25);
     }
 }
 
